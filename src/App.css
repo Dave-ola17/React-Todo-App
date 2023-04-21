@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* styling for nav section */
+.logo{
+  font-weight: bolder;
+}
+.contain{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background-color: #ffff;
+  box-shadow: 0px 0px 0px 0.4px #000;
+  position: sticky;
+}
+.lists{
+  display: flex;
+  margin: 0px 4px 0px 0px;
+}
+.but1{
+  padding: 4px;
+  background-color: azure;
+  color: aqua;
+  font-weight: 600;
+  border: none;
+}
+.but2{
+  padding: 4px;
+  background-color:  rgba(var(--color-neutral-90-rgb),.08);
+  color: darkgrey;
+  font-weight: 600;
+  border: none;
+}
+
+/* Todo section styling */
+.text1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;  
+}
+.todoSection{
+  background-color: blueviolet;
+  display: flex;
+}
